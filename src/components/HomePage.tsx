@@ -18,13 +18,13 @@ const HomePage: React.FC = () => {
               Made by Your Senior <span className='text-red-600'>Harsh Patel</span>
             </p>
           </div>
-          {/* <Link
+          <Link
             to="/admin"
             className="bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700 transition-colors flex items-center gap-2"
           >
             <Settings className="w-4 h-4" />
             Admin Panel
-          </Link> */}
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
